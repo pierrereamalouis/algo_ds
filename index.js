@@ -5,6 +5,7 @@ const sameFrequency = require('./algo/sameFrequency');
 const areThereDuplicates = require('./algo/areThereDuplicates');
 const averagePair = require('./algo/averagePair');
 const isSubsequence = require('./algo/isSubsequence');
+const maxSubarraySum = require('./algo/maxSubarraySum');
 
 // validAnagram('cat', 'atc');
 
@@ -18,4 +19,6 @@ const isSubsequence = require('./algo/isSubsequence');
 
 // console.log(averagePair([], 3.5));
 
-console.log(isSubsequence('hello', 'hell thereo what is up'));
+// console.log(isSubsequence('hello', 'hell thereo what is up'));
+
+console.log(maxSubarraySum([-3, 4, 0, -2, 6, -1], 2));
